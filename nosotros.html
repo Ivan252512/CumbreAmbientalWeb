@@ -13,6 +13,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/clean-blog.min.css" rel="stylesheet">
 
   </head>
@@ -32,8 +33,14 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="wsen.html">WSEN</a>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="WSEN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 WSEN
+               </a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="WSEN">
+                 <a href="wsenglobal.html" class="dropdown-item" >WSEN Global</a>
+                 <a href="wsenlatam.html" class="dropdown-item" >WSEN Latina</a>
+               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="participacion.html">Participación</a>
@@ -78,10 +85,20 @@
             multiplicidad de ideas que hacen sinergia para la creación de un gran evento.
           </p>
           <br>
-          <p>
-            - Mario Contreras Fleury (Coordinador general): Licenciatura en Ciencias de la Tierra con orientación
-            a Ciencias Ambientales, Facultad de Ciencias, UNAM.
-          </p>
+
+          <div class="row project">
+            <div class="col-lg-3 col-md-4 offset-lg-1">
+              <img class="img-fluid" src="img/prome.JPG" alt="">
+            </div>
+            <div class="col-lg-7 col-md-8">
+              <h2 class="section-heading title">Facultad de Ciencias</h2>
+              <p>
+                Mario Contreras Fleury (Coordinador general): Licenciatura en Ciencias de la Tierra con orientación
+                a Ciencias Ambientales, Facultad de Ciencias, UNAM.
+              </p>
+            </div>
+          </div>
+
           <br>
           <p>
             - Malinali Castañeda Romero (Coordinadora general): Licenciatura en Ciencias de la Tierra con orientación a
@@ -127,6 +144,9 @@
              orientación a Ciencias Espaciales, Facultad de Ciencias, UNAM. Licenciatura en Ingeniería en Sistemas
              Computacionales, Universidad IEU.
           </p>
+
+          <hr>
+
           </div>
         </div>
       </div>
